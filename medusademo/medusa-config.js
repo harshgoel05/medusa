@@ -52,16 +52,16 @@ const plugins = [
       },
     },
   },
-  {
-    resolve: `medusa-plugin-sanity`,
-    options: {
-      projectId: process.env.SANITY_PROJECT_ID,
-      dataset: process.env.SANITY_DATASET,
-      token: process.env.SANITY_TOKEN,
-      apiVersion: "2021-10-21",
-      useCdn: false, // `false` if you want to ensure fresh data
-    },
-  },
+  // {
+  //   resolve: `medusa-plugin-sanity`,
+  //   options: {
+  //     projectId: process.env.SANITY_PROJECT_ID,
+  //     dataset: process.env.SANITY_DATASET,
+  //     token: process.env.SANITY_TOKEN,
+  //     apiVersion: "2021-10-21",
+  //     useCdn: false, // `false` if you want to ensure fresh data
+  //   },
+  // },
 ];
 
 const modules = {
